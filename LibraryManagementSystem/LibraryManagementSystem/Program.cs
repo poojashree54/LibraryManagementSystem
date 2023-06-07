@@ -5,6 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Logging.ClearProviders();
+builder.Logging.AddLog4Net();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -20,6 +23,10 @@ builder.Services.AddScoped<IBookRepo, BookRepo>();
 builder.Services.AddScoped<IBookServices, BookServices>();
 builder.Services.AddScoped<IIssueRepo, IssueRepo>();
 builder.Services.AddScoped<IIssueServices, IssueServices>();
+builder.Services.AddScoped<IUserRepo, UserRepo>();
+builder.Services.AddScoped<IUserServices, UserServices>();
+
+
 
 var app = builder.Build();
 
