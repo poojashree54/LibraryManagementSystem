@@ -1,0 +1,28 @@
+C:\Users\2266957\Desktop\CTSIdp\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\2266957\Desktop\CTSIdp\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\2266957\Desktop\CTSIdp\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\2266957\Desktop\CTSIdp\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+C:\Users\2266957\Desktop\CTSIdp\DAL\obj\Debug\net6.0\ref\DAL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\DAL\obj\Debug\net6.0\ref\DAL.dll

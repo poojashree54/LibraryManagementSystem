@@ -11,6 +11,7 @@ namespace BLL.DTOs
     public class UserDTO
     {
         [Key]
+        public int UserId { get; set; }
 
         public string UserName { get; set; }
         public string Password { get; set; }
@@ -23,7 +24,7 @@ namespace BLL.DTOs
             if (dto == null) return null;
             return new User
             {
-
+                UserId = dto.UserId,
                 UserName = dto.UserName,
                 Password = dto.Password,
                 Email = dto.Email,
@@ -38,7 +39,7 @@ namespace BLL.DTOs
             if (user == null) return null;
             return new UserDTO
             {
-
+                UserId=user.UserId,
                 UserName = user.UserName,
                 Password = user.Password,
                 Email = user.Email,

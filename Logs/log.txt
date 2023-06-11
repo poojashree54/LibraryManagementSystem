@@ -1,0 +1,11 @@
+2023-06-09 15:26:35,214 INFO  Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (54ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [b].[BookId], [b].[Author], [b].[IsAvailable], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[BookId] = @__p_0
+2023-06-09 15:26:35,234 INFO  ServiceLayer.Controllers.BookController.SearchBook [53] - MESSAGE: Book is fetched by ID
+2023-06-09 15:26:35,245 INFO  Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: None
+2023-06-09 15:26:35,256 INFO  Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [b].[BookId], [b].[Author], [b].[IsAvailable], [b].[Title]
+FROM [Books] AS [b]
+WHERE [b].[BookId] = @__p_0
+2023-06-09 15:26:35,261 INFO  ServiceLayer.Controllers.BookController.SearchBook [53] - MESSAGE: Book is fetched by ID

@@ -9,7 +9,7 @@ namespace BLL.Services
 {
     public interface IIssueServices
     {
-        IEnumerable<IssueDTO> GetIssues();
+        ICollection<IssueDTO> GetIssues();
         IssueDTO GetIssue(int id);
         bool AddIssue(IssueDTO issueDto);
         //void UpdateIssue(int id, IssueDTO issueDto);

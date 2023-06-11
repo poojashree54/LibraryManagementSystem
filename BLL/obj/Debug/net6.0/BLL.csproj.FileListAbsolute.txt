@@ -1,0 +1,30 @@
+C:\Users\2266957\Desktop\CTSIdp\BLL\bin\Debug\net6.0\BLL.deps.json
+C:\Users\2266957\Desktop\CTSIdp\BLL\bin\Debug\net6.0\BLL.dll
+C:\Users\2266957\Desktop\CTSIdp\BLL\bin\Debug\net6.0\BLL.pdb
+C:\Users\2266957\Desktop\CTSIdp\BLL\bin\Debug\net6.0\DAL.dll
+C:\Users\2266957\Desktop\CTSIdp\BLL\bin\Debug\net6.0\DAL.pdb
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.dll
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\refint\BLL.dll
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\BLL.pdb
+C:\Users\2266957\Desktop\CTSIdp\BLL\obj\Debug\net6.0\ref\BLL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\bin\Debug\net6.0\BLL.deps.json
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\bin\Debug\net6.0\BLL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\bin\Debug\net6.0\BLL.pdb
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\bin\Debug\net6.0\DAL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\bin\Debug\net6.0\DAL.pdb
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\refint\BLL.dll
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\BLL.pdb
+C:\Users\Ashish Kumar Sahu\OneDrive\Desktop\IDP\CTSIdp\BLL\obj\Debug\net6.0\ref\BLL.dll

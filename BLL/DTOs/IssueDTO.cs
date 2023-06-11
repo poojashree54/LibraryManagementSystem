@@ -27,8 +27,8 @@ namespace BLL.DTOs
                 Id = dto.Id,
                 BookId = dto.BookId,
                 UserId = dto.UserId,
-                IssueDate = dto.IssueDate,
-                ReturnDate = dto.ReturnDate,
+                IssueDate = DateTime.Now,
+                ReturnDate = DateTime.Now.AddDays(7),
 
 
             };
