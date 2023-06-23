@@ -1,5 +1,6 @@
 ﻿using BLL.DTOs;
 using BLL.Services;
+using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,7 @@ namespace ServiceLayer.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
+        private IConfiguration _configuration;
         private readonly IUserServices _userService;
         private readonly ILogger<LoginController> _logger;
 
@@ -38,13 +40,13 @@ namespace ServiceLayer.Controllers
             }
         }
 
-        /*[AllowAnonymous]
+        [AllowAnonymous]
         [HttpPost("Login")]
-        public IActionResult Authenticate(UserDTO userdto)
+        public IActionResult Authenticate(string userName, string password)
         {
             try
             {
-                var token = _userService.Authenticate(userdto.UserName, userdto.Password);
+                var token = _userService.Authenticate(userName, password);
                 if (token == null)
                 {
                     // Authentication failed
@@ -58,7 +60,7 @@ namespace ServiceLayer.Controllers
                 _logger.LogError(ex, "An error occurred while Login an User.");
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Failed to create user.{ex}");
             }
-        }*/
+        }
 
         [AllowAnonymous]
         [HttpPost("Register")]
@@ -66,14 +68,8 @@ namespace ServiceLayer.Controllers
         {
             try
             {
-                var user = new UserDTO
-                {
-                    /*UserId = model.UserId,*/
+                var user = (User)model;
 
-                    UserName = model.UserName,
-                    Password = model.Password,
-                    IsAdmin = model.IsAdmin
-                };
 
                 _userService.Register(user);
                 _logger.LogInformation("User successfully registered.");

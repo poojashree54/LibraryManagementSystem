@@ -21,26 +21,26 @@ namespace ServiceLayer.Controllers
 
         [HttpGet("GetCustomers")]
         [ProducesResponseType(200, Type = typeof(IEnumerable<User>))]
-        public IActionResult GetAllCustomers()
+        public IActionResult GetAllUsers()
         {
             try
             {
-                var users = _userService.GetUsers();
+                var Customers = _userService.GetUsers();
                 if (!ModelState.IsValid)
                 {
                     return BadRequest(ModelState);
                 }
-                _logger.LogInformation("Users Fetched.");
-                return Ok(users);
+                _logger.LogInformation("Customers Fetched.");
+                return Ok(Customers);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occured while retrieving Users.");
+                _logger.LogError(ex, "An error occured while retrieving Customers.");
                 return StatusCode(500);
             }
         }
 
-        [HttpGet("GetUserById")]
+        [HttpGet("GetCustomerById")]
         public IActionResult GetUserById(int id)
         {
             try
@@ -50,7 +50,7 @@ namespace ServiceLayer.Controllers
                 {
                     return NotFound();
                 }
-                _logger.LogInformation("User are fetched by ID");
+                _logger.LogInformation("Customer are fetched by ID");
                 return Ok(customer);
             }
             catch (Exception ex)
@@ -61,7 +61,7 @@ namespace ServiceLayer.Controllers
         }
 
         [HttpPost("CreateCustomer")]
-        public IActionResult AddUser(UserDTO user)
+        public IActionResult CreateUser(UserDTO user)
         {
             try
             {
@@ -73,7 +73,7 @@ namespace ServiceLayer.Controllers
                 {
                     return BadRequest(ModelState);
                 }
-                if (!_userService.AddUser(user))
+                if (!_userService.Register(user))
                 {
                     ModelState.AddModelError("", "Customer is not Created [CONTOLLER]");
                     return StatusCode(500, ModelState);
@@ -84,51 +84,6 @@ namespace ServiceLayer.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while creating a Customer.");
-                return StatusCode(500);
-            }
-        }
-
-        [HttpPut("UpdateCustomer")]
-        public IActionResult UpdateUser(int id, User user)
-        {
-            try
-            {
-                if (id != user.UserId)
-                {
-                    return BadRequest();
-                }
-
-                _userService.UpdateUser(id, user);
-                _logger.LogInformation("User is Created");
-
-                return Ok("Customer Successfully Updated");
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "An error occurred while updating a Customer.");
-                return StatusCode(500);
-            }
-        }
-
-        [HttpDelete("DeleteUser")]
-        public IActionResult DeleteUser(int id)
-        {
-            try
-            {
-                var user = _userService.GetUserById(id);
-
-                if (user == null)
-                {
-                    return NotFound();
-                }
-                _userService.DeleteUser(id);
-                _logger.LogInformation("Customer is Deleted");
-
-                return Ok("Customer Successfully Deleted");
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "An error occurred while deleting a Customer.");
                 return StatusCode(500);
             }
         }

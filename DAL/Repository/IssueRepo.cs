@@ -19,34 +19,32 @@ namespace DAL.Repository
 
         public bool AddIssue(Issue issue)
         {
-            if ((_context.Issues.Add(issue)) != null)
+            issue.ReturnDate = issue.ReturnDate.AddDays(7);
+            if ((_context.Issues.Add(issue)) == null)
             {
-                _context.SaveChanges();
-                return true;
+                return false;
             }
-            return false;
+            _context.SaveChanges();
+            return true;
         }
 
         public void DeleteIssue(int issueId)
         {
-            var issue = _context.Issues.Find(issueId);
+            var issue = _context.Issues.Where(i => i.Id == issueId).FirstOrDefault();
             _context.Issues.Remove(issue);
             _context.SaveChanges();
         }
 
-        public IEnumerable<Issue> GetAllIssues()
+        public ICollection<Issue> GetAllIssues()
         {
             return _context.Issues.Include(i => i.Book).Include(i => i.User).ToList();
         }
 
         public Issue GetIssueById(int issueId)
         {
-            throw new NotImplementedException();
+            return _context.Issues.Where(i => i.Id == issueId).FirstOrDefault();
         }
 
-        public void UpdateIssue(Issue issue)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

@@ -10,15 +10,10 @@ namespace BLL.Services
 {
     public interface IUserServices
     {
-        ICollection<User> GetUsers();
-        User GetUserById(int id);
-        bool AddUser(UserDTO userDto);
-        void UpdateUser(int id, User user);
-        void DeleteUser(int id);
-        //bool Login(string username, string password);
-
-        //public string Authenticate(string username, string password);
-        public string Register(UserDTO user);
-
+        string Login(string username, string password);
+        IEnumerable<UserDTO> GetUsers();
+        UserDTO GetUserById(int id);
+        public bool Register(UserDTO userDto);
+        public string Authenticate(string username, string password);
     }
 }

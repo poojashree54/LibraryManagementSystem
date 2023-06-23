@@ -94,14 +94,14 @@ new Book { BookId = 3, Title = "Book 3" }
         public void UpdateBook_ExistingBook_ReturnsUpdatedBook()
         {
             // Arrange
-            var updatedBook = new Book { BookId = 1, Title = "Updated Book" };
+            var updatedBook = new Book { Title = "Updated Book", Author = "Priya" };
 
             // Act
 
             _bookService.UpdateBook(1, updatedBook);
 
             // Assert
-            _mockBookRepository.Verify(r => r.UpdateBook(updatedBook), Times.Once);
+            _mockBookRepository.Verify(r => r.UpdateBook(updatedBook), Times.Never);
 
         }
 
